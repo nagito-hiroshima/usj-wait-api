@@ -55,6 +55,18 @@ const CATALOG_ITEMS = [
     area: "ハリウッド・エリア",
     active: true,
   },
+  {
+    id:"nw_donkeykong_country_ride",
+    displayName: "ドンキーコング・カントリー・ライド",
+    shortName: "ドンキーコング",
+    codeName: "DKC",
+    apiTitle: "nw_donkeykong_country_ride",
+    endpoint: "/api/wait?slug=nw_donkeykong_country_ride",
+    image_url:
+      "https://www.usj.co.jp/tridiondata/usj/ja/jp/files/images/gds-images/usj-gds-donkey-kong-country-ride-b.jpg",
+    area: "ニンテンドー・ワールド",
+    active: true,
+  }
 ];
 
 /* ===== Usage ===== */
