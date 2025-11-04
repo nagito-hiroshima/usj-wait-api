@@ -58,7 +58,7 @@ const CATALOG_ITEMS = [
   {
     id:"nw_donkeykong_country_ride",
     displayName: "ドンキーコング・カントリー・ライド",
-    shortName: "ドンキーコング",
+    shortName: "ドンキー",
     codeName: "DKC",
     apiTitle: "nw_donkeykong_country_ride",
     endpoint: "https://usjwait.moenaigomi.com/api/wait?slug=nw_donkeykong_country_ride",
