@@ -37,7 +37,7 @@ const CATALOG_ITEMS = [
     shortName: "XRライド",
     codeName: "SPY",
     apiTitle: "ev_spy_family_xr",
-    endpoint: "/api/wait?slug=ev_spy_family_xr",
+    endpoint: "https://usjwait.moenaigomi.com/api/wait?slug=ev_spy_family_xr",
     image_url:
       "https://www.usj.co.jp/tridiondata/usj/ja/jp/files/images/gds-images/usj-gds-spy-family-2025-b.jpg",
     area: "ハリウッド・エリア",
@@ -49,7 +49,7 @@ const CATALOG_ITEMS = [
     shortName: "ハリドリ",
     codeName: "HDR",
     apiTitle: "hw_dream",
-    endpoint: "/api/wait?slug=hw_dream",
+    endpoint: "https://usjwait.moenaigomi.com/api/wait?slug=hw_dream",
     image_url:
       "https://www.usj.co.jp/tridiondata/usj/ja/jp/files/images/gds-images/usj-gds-hollywood-dream-the-ride-b.jpg",
     area: "ハリウッド・エリア",
@@ -61,7 +61,7 @@ const CATALOG_ITEMS = [
     shortName: "ドンキーコング",
     codeName: "DKC",
     apiTitle: "nw_donkeykong_country_ride",
-    endpoint: "/api/wait?slug=nw_donkeykong_country_ride",
+    endpoint: "https://usjwait.moenaigomi.com/api/wait?slug=nw_donkeykong_country_ride",
     image_url:
       "https://www.usj.co.jp/tridiondata/usj/ja/jp/files/images/gds-images/usj-gds-donkey-kong-country-ride-b.jpg",
     area: "ニンテンドー・ワールド",
