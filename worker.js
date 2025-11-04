@@ -1,3 +1,5 @@
+import CATALOG_ITEMS from './catalog.json' assert { type: 'json' };
+
 /* ===== 共有：JSON/CORS/Cache ===== */
 function json(obj, status = 200, maxAge = 0) {
   const h = { "content-type": "application/json; charset=UTF-8" };
@@ -28,46 +30,6 @@ const MAX_REDIRECTS = 5;
 const SLUG_MAP = {
   // 例: "mario_kart": "https://usjreal.asumirai.info/attraction/mario_kart_koopa_challenge.html",
 };
-
-/* ===== カタログ（必要なら catalog.json 方式にも後で差し替え可） ===== */
-const CATALOG_ITEMS = [
-  {
-    id: "spyxr",
-    displayName: "SPY×FAMILY XRライド",
-    shortName: "XRライド",
-    codeName: "SPY",
-    apiTitle: "ev_spy_family_xr",
-    endpoint: "https://usjwait.moenaigomi.com/api/wait?slug=ev_spy_family_xr",
-    image_url:
-      "https://www.usj.co.jp/tridiondata/usj/ja/jp/files/images/gds-images/usj-gds-spy-family-2025-b.jpg",
-    area: "ハリウッド・エリア",
-    active: true,
-  },
-  {
-    id: "hw_dream",
-    displayName: "ハリウッド・ドリーム・ザ・ライド",
-    shortName: "ハリドリ",
-    codeName: "HDR",
-    apiTitle: "hw_dream",
-    endpoint: "https://usjwait.moenaigomi.com/api/wait?slug=hw_dream",
-    image_url:
-      "https://www.usj.co.jp/tridiondata/usj/ja/jp/files/images/gds-images/usj-gds-hollywood-dream-the-ride-b.jpg",
-    area: "ハリウッド・エリア",
-    active: true,
-  },
-  {
-    id:"nw_donkeykong_country_ride",
-    displayName: "ドンキーコング・カントリー・ライド",
-    shortName: "ドンキ",
-    codeName: "DKC",
-    apiTitle: "nw_donkeykong_country_ride",
-    endpoint: "https://usjwait.moenaigomi.com/api/wait?slug=nw_donkeykong_country_ride",
-    image_url:
-      "https://www.usj.co.jp/tridiondata/usj/ja/jp/files/images/gds-images/usj-gds-donkey-kong-country-ride-b.jpg",
-    area: "ニンテンドー・ワールド",
-    active: true,
-  }
-];
 
 /* ===== Usage ===== */
 function usage() {
