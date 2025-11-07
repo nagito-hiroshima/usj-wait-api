@@ -32,6 +32,27 @@
       "image_url": "https://www.usj.co.jp/tridiondata/usj/ja/jp/files/images/gds-images/usj-gds-donkey-kong-country-ride-b.jpg",
       "area": "ニンテンドー・ワールド",
       "active": true
+    },
+    {
+      "id": "amity_island_jurassic_park",
+      "displayName": "ジュラシック・パーク・ザ・ライド",
+      "shortName": "ジュラパ",
+      "codeName": "JP",
+      "apiTitle": "jp_ride",
+      "endpoint": "https://usjwait.moenaigomi.com/api/wait?slug=jp_ride",
+      "image_url": "https://www.usj.co.jp/tridiondata/usj/ja/jp/files/images/gds-images/usj-gds-jurassic-park-the-ride-b.jpg",
+      "area": "アミティ・エリア",
+      "active": true
+    },{
+      "id": "hw_bkdrop",
+      "displayName": "ハリウッド・ドリーム・ザ・ライド ～バックドロップ～", 
+      "shortName": "バックドロップ",
+      "codeName": "BDR",
+      "apiTitle": "hw_bkdrop",
+      "endpoint": "https://usjwait.moenaigomi.com/api/wait?slug=hw_bkdrop",
+      "image_url": "https://www.usj.co.jp/tridiondata/usj/ja/jp/files/images/gds-images/usj-gds-hollywood-dream-the-ride-backdrop-b.jpg",
+      "area": "ハリウッド・エリア",
+      "active": true
     }
   ]
 }
